@@ -42,10 +42,10 @@ function App() {
         <table class='table'>
           <thead class="thead-dark">
             <tr>
-              <th>ID</th>
+              <th># ID</th>
               <th>Descripción</th>
               <th>Cantidad</th>
-              <th>Precio</th>
+              <th>Precio (MXN) </th>
               <th>Descuento</th>
             </tr>
           </thead>
@@ -65,7 +65,7 @@ function App() {
         <div className="container mt-4">
           <div className="row">
             <div className="col-sm">
-              <div className="card">
+              <div className="card card text-white bg-danger">
                 <div className="card-body">
                   <h5 className="card-title">Subtotal</h5>
                   <p className="card-text">{subtotal}</p>
@@ -73,7 +73,7 @@ function App() {
               </div>
             </div>
             <div className="col-sm">
-              <div className="card">
+              <div className="card card text-white bg-warning">
                 <div className="card-body">
                   <h5 className="card-title">Total descuentos</h5>
                   <p className="card-text">{totalDescuentos}</p>
@@ -81,7 +81,7 @@ function App() {
               </div>
             </div>
             <div className="col-sm">
-              <div className="card">
+              <div className="card text-white bg-success">
                 <div className="card-body">
                   <h5 className="card-title">Total a pagar</h5>
                   <p className="card-text">{totalAPagar}</p>
