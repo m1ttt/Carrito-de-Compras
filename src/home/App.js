@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { useEffect } from 'react';
 import './estilos/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
